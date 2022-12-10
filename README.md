@@ -26,7 +26,7 @@ my todo list
 
 
 
-silent features 
+#silent features 
 
 test data created and setup using code can be found in (SetupData.java)
 
@@ -66,8 +66,9 @@ close loan:
  /updatechecklist/2/3
  
  get all loan applications:
-  http://localhost:8080/loans/teamId
- http://localhost:8080/loans/1
+  /loans/teamId
+  
+ /loans/1
  
  
  /checklist/{teamId}/{checklistId}
