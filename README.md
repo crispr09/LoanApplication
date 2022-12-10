@@ -3,15 +3,25 @@
 my todo list
 
 1 add more custome exception in my global @ControllerAdvice class
+
 2 add more logging 
+
 3 add unit test cases
+
 4 use privlages
+
 5 add all CRUD operations for appropriate entities
+
 6 add integration test cases with test database
+
 7 actuator , prometheous and grephana integration
+
 8 different profiles 
+
 9 move the data to test H2 database for integration testing
+
 10 provide proper CRUD operations for checkListItems
+
 11 modify updatechecklist to be a postMapping method
 
 
@@ -19,10 +29,15 @@ my todo list
 silent features 
 
 test data created and setup using code can be found in (SetupData.java)
+
 custime exception
+
 spring security to check user and team authorization
+
 custom authentication from DB tables
+
 user specific authorization using spring security expression
+
 logging is added
 
 two user added
