@@ -28,26 +28,25 @@ my todo list
 
 # silent features 
 
-test data created and setup using code can be found in (SetupData.java)
+* test data created and setup using code can be found in (SetupData.java)
 
-custime exception
+* custime exception
 
-spring security to check user and team authorization
+* spring security to check user and team authorization
 
-custom authentication from DB tables
+* custom authentication from DB tables
 
-user specific authorization using spring security expression
+* user specific authorization using spring security expression
 
-logging is added
+* logging is added
 
-two user added
- username: sachin 
- password: 111
- username: kumar
- password: 222
+* two user added
+  username: sachin 
+  password: 111
+  username: kumar
+  password: 222
  
- usages
- IMPORTANT MSG- teamId is added to shocase spring secutiry authorization done based on user-team authorization
+ ## usages IMPORTANT !! - teamId is added to shocase spring secutiry authorization done based on user-team authorization
  
  ## open loan:
  /openloan/teamId/loanId
@@ -70,7 +69,7 @@ two user added
   
  /loans/1
  
- 
+ ## get checklist:
  /checklist/{teamId}/{checklistId}
  
  ## Code for loan status
