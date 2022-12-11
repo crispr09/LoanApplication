@@ -49,23 +49,23 @@ two user added
  usages
  IMPORTANT MSG- teamId is added to shocase spring secutiry authorization done based on user-team authorization
  
- open loan:
+ ## open loan:
  /openloan/teamId/loanId
  e.g
  /openloan/1/1235
 
 
-close loan:
+ ## close loan:
  /closeloan/teamId/loanId
  e.g
  /closeloan/1/1235
  
- updatechecklist:
+ ## updatechecklist:
  
  /updatechecklist/{teamId}/{checklistId}
  /updatechecklist/2/3
  
- get all loan applications:
+ ## get all loan applications:
   /loans/teamId
   
  /loans/1
@@ -73,8 +73,11 @@ close loan:
  
  /checklist/{teamId}/{checklistId}
  
- 
- 
+ ## Code for loan status
+ 	REJECTED(103, "REJECTED"),
+	APPROVED(102, "APPROVED"),
+	PENDING(101, "PENDING"),
+	OPEN(100, "OPEN");
  
 
 
