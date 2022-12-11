@@ -1,28 +1,28 @@
 # LoanApplication
 
-my todo list
+## my todo list
 
-1 add more custome exception in my global @ControllerAdvice class
+1. add more custome exception in my global @ControllerAdvice class
 
-2 add more logging 
+2. add more logging 
 
-3 add unit test cases
+3. add unit test cases
 
-4 use privlages
+4. use privlages
 
-5 add all CRUD operations for appropriate entities
+5. add all CRUD operations for appropriate entities
 
-6 add integration test cases with test database
+6. add integration test cases with test database
 
-7 actuator , prometheous and grephana integration
+7. actuator , prometheous and grephana integration
 
-8 different profiles 
+8. different profiles 
 
-9 move the data to test H2 database for integration testing
+9. move the data to test H2 database for integration testing
 
-10 provide proper CRUD operations for checkListItems
+10. provide proper CRUD operations for checkListItems
 
-11 modify updatechecklist to be a postMapping method
+11. modify updatechecklist to be a postMapping method
 
 
 
